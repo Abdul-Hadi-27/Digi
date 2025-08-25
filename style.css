@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+ html,body{
+    height: 100vh;
+    width: 100%;
+    /* background-color: black; */
+
+ }
+ body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  background: linear-gradient(to bottom, rgba(0, 128, 0, 0.845), rgb(0, 0, 0));
+  position: relative;
+}
+
+
+ 
+ .clock{
+    border: 2px solid white;
+    color: rgba(191, 255, 0, 0.943);
+    height: 200px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 7rem;
+   border-radius: 20px;
+   background-color: black;
+    
+
+ }
+ .showDate{
+    position: absolute;
+    height: fit-content;
+    width: 200px;
+    /* border: 2px solid white; */
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ color: white;
+ top: 59%;
+ border-radius: 4px;
+
+ /* padding-block: 3px; */
+font-size: 1.5rem;
+ }
